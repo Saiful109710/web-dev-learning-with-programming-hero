@@ -1,0 +1,68 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Teriyaki Chicken",
+      "recipe_image": "  https://i.ibb.co.com/DLLdPvp/alex-munsell-Yr4n8-O-3-UPc-unsplash-1.jpg",
+      "short_description": "A savory-sweet dish of chicken glazed in teriyaki sauce.",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "50 g sugar", "50 ml sake", "2 garlic cloves"],
+      "preparing_time": 30,
+      "calories": 320
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Vegan Buddha Bowl",
+      "recipe_image": "  https://i.ibb.co.com/Yb9hHSQ/alex-munsell-au-Ib-TAc-SH6-E-unsplash.jpg",
+      "short_description": "A nourishing vegan bowl with quinoa, veggies, and hummus.",
+      "ingredients": ["100 g quinoa", "200 g chickpeas", "100 g kale", "1 avocado", "50 g hummus"],
+      "preparing_time": 25,
+      "calories": 450
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Pasta Carbonara",
+      "recipe_image": "https://i.ibb.co.com/q7HbDGn/alex-munsell-Yr4n8-O-3-UPc-unsplash.jpg",
+      "short_description": "A classic Italian pasta dish with creamy egg and cheese sauce.",
+      "ingredients": ["200 g spaghetti", "100 g pancetta", "2 eggs", "50 g parmesan", "1 garlic clove"],
+      "preparing_time": 20,
+      "calories": 400
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Greek Salad",
+      "recipe_image": "https://i.ibb.co.com/GPVWBSw/chicken-skewers-with-slices-sweet-peppers-dill.jpg",
+      "short_description": "A refreshing salad with cucumber, feta, and olives.",
+      "ingredients": ["200 g cucumber", "100 g feta cheese", "100 g olives", "1 tomato", "1 onion"],
+      "preparing_time": 15,
+      "calories": 250
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Beef Stroganoff",
+      "recipe_image": "https://i.ibb.co.com/J55xNFQ/side-view-pilaf-with-stewed-beef-meat-plate.jpg",
+      "short_description": "Creamy beef stroganoff served over egg noodles.",
+      "ingredients": ["300 g beef", "200 g mushrooms", "150 ml sour cream", "1 onion", "2 garlic cloves"],
+      "preparing_time": 35,
+      "calories": 550
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Tom Yum Soup",
+      "recipe_image": "  https://i.ibb.co.com/SmxbKDL/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese.jpg",
+      "short_description": "A spicy Thai soup with shrimp and lemongrass.",
+      "ingredients": ["300 g shrimp", "200 g mushrooms", "100 ml fish sauce", "2 lemongrass stalks", "3 chili peppers"],
+      "preparing_time": 40,
+      "calories": 300
+    }
+  ]
+
+
+
+
+
+
+
+
+
+
+
+

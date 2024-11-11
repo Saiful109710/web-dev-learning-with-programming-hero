@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body id="body">
+  
+      <button onclick="makeGreen()">make green</button>
+      <button id="make-yellow">make yellow</button>
+      <input id="input" type="text">
+
+    <script>
+        // option 1
+            function makeGreen(){
+                document.body.style.backgroundColor = "green"
+            }
+        // option 2
+            document.getElementById("make-yellow").addEventListener("click",function(){
+                document.body.style.backgroundColor= "yellow"
+            })
+
+            document.getElementById("input").addEventListener("keyup",function(event){
+                console.log(event.target.value)
+            })
+
+    </script>
+</body>
+</html>

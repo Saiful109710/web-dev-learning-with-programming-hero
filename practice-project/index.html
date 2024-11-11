@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <span class="logo">Fitness</span>
+            <ul>
+                <li id="home" class="jd sdcbhsbh sdhcbhds">Home</li>
+                <li  class="menu" id="one">Services</li>
+                <li class="menu" id="one">Contact</li>
+                <li class="menu" id="one">About</li>
+            </ul>
+            <i class='bx bx-menu menu-icon'></i>
+        </nav>
+        <div class="banner container" id="banner-container">
+            <div class="banner-content" id="banner-container">
+                <h1>Get body is shape & stay healthy</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas eveniet non quaerat consectetur iusto omnis tempore deleniti reprehenderit magni.</p>
+                <div class="button-container">
+                    <button class="btn primary" onclick="makeRed()">Join Club Now</button>
+                    <button class="btn secondary" onclick="document.body.style.backgroundColor='yellow'">Download App</button>
+                    <button id="btn3">click for blue</button>
+                </div>
+            </div>
+            <div class="banner-image-container">
+                <div class="banner-image">
+                    <img src="images/header-img.png" alt="">
+                    <div class="floating-card top">
+                        <div>
+                            <h5>500+</h5>
+                        <p>Free Workout Videos</p>
+                        </div>
+                    </div>
+                    <div class="floating-card bottom">
+                        <div class="circle"></div>
+                        <div>
+                            <h5>350+</h5>
+                        <p>video Tutorials</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+   <div id="main-container">
+    <div class="container">
+        <div class="container training ">
+            <h1>Training  and Excersiseh</h1>
+            <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cupiditate alias omnis minima consequuntur aliquam esse explicabo repudiandae nobis sed.</p>
+
+
+        </div>
+        <div>
+            <div class="top-row">
+                <div class="card">
+                    <img src="images/exercise1.jpg" alt="">
+                    <div class="overlay overlay-1">
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/exercise2.png" alt="">
+                    <div class="overlay overlay-2">
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="card third">
+                    <img src="images/exercise3.png" alt="">
+                    <div class="overlay overlay-3">
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-row">
+                <div class="card first">
+                    <img src="images/exercise4.png" alt="">
+                    <div class="overlay overlay-4">
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/exercise5.jpg" alt="">
+                    <div class="overlay overlay-5">
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/exercise6.jpg" alt="">
+                    <div class="overlay overlay-6">
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+    <script src="index.js"></script>
+    <script>
+        const makeBlueBtn  = document.getElementById('btn3');
+
+        makeBlueBtn.onclick = makeBlue;
+
+        function makeBlue(){
+            document.body.style.backgroundColor = 'blue';
+        }
+    </script>
+</body>
+</html>
